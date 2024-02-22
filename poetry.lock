@@ -211,7 +211,7 @@ name = "zipp"
 version = "3.17.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.11"
 files = [
     {file = "zipp-3.17.0-py3-none-any.whl", hash = "sha256:0e923e726174922dce09c53c59ad483ff7bbb8e572e00c7f7c46b88556409f31"},
     {file = "zipp-3.17.0.tar.gz", hash = "sha256:84e64a1c28cf7e91ed2078bb8cc8c259cb19b76942096c8d7b84947690cabaf0"},
@@ -223,5 +223,5 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.8"
-content-hash = "460da39c477bdf9e0bfe062d7cb4cc27cf4ff9324d10e8caa5df3d7eb591dfd6"
+python-versions = "^3.11"
+content-hash = "a08d33ecf1c656c50f1264b5084c3784bccd81eec14d47aaa62b80e9b349eff8"
