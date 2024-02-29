@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from routes.account.account import account_route
+from skilswapbackend.routes.account.account import account_route
 
 app = Flask(__name__)
 CORS(app)
