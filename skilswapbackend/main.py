@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-from skilswapbackend.routes.account.account import account_route
+# from skilswapbackend.routes.account.account import account_route
 
 app = Flask(__name__)
 CORS(app)
@@ -25,7 +25,7 @@ def hello_world():
     return response
 
 
-app.register_blueprint(account_route, url_prefix="/account")
+# app.register_blueprint(account_route, url_prefix="/account")
 
 
 if __name__ == "__main__":
