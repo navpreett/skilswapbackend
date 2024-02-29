@@ -1,6 +1,10 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 
+
+# import all root routes
+from routes.account.account import account_route
+
 app = Flask(__name__)
 CORS(app)
 
@@ -20,6 +24,9 @@ def hello_world():
     response = jsonify({'message': 'Hello World!'})
     print("root route")
     return response
+
+
+app.register_blueprint(account_route, url_prefix='/account')
 
 
 if __name__ == '__main__':

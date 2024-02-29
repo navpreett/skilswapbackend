@@ -172,3 +172,5 @@ cython_debug/
 .idea/skilswapbackend.iml
 .idea/poetry.xml
 .idea/misc.xml
+.idea/skilswapbackend.iml
+.idea/misc.xml
