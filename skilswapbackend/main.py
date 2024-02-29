@@ -1,8 +1,5 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
-
-
-# import all root routes
 from routes.account.account import account_route
 
 app = Flask(__name__)
