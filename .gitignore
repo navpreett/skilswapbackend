@@ -167,3 +167,8 @@ cython_debug/
 .idea
 .vscode/
 .DS_Store
+.idea/skilswapbackend.iml
+.idea/misc.xml
+.idea/skilswapbackend.iml
+.idea/poetry.xml
+.idea/misc.xml
